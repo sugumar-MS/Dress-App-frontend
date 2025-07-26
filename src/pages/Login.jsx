@@ -25,6 +25,7 @@ const Login = () => {
           setToken(res.data.token);
           localStorage.setItem('token', res.data.token);
         } else toast.error(res.data.message);
+        
       } else {
         const res = await axios.post(backendUrl + '/api/user/login', {
           email,

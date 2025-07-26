@@ -285,8 +285,10 @@ const PlaceOrder = () => {
 
           <div className="mt-8 w-full text-end">
             <button
-              onClick={() => navigate('/orders')}
+              
+              type="submit"
               className="bg-black px-16 py-3 text-sm text-white"
+              
             >
               PLACE ORDER
             </button>
