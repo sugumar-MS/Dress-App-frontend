@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { StoreContext } from '../context/StoreContext'
 import { useSearchParams } from 'react-router-dom'
-// import { backendUrl } from '../../../DressApp-admin/src/App'
 import {toast} from 'react-toastify'
 import axios from 'axios'
 
